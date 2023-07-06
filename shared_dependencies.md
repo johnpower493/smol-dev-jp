@@ -1,27 +1,39 @@
-1. Django: All the files share the Django framework as a dependency. Django is used for creating the structure of the website, handling requests, and managing the database.
+1. Django: All the files share the Django framework as a dependency. Django is used for creating the website's backend, handling HTTP requests, and managing the database.
 
-2. Settings: The settings.py file is shared among all the files as it contains the configuration of the Django project.
+2. Python: All the .py files share Python as a language dependency.
 
-3. URLs: The urls.py files in both the main project and the app are shared dependencies as they define the routing of the website.
+3. HTML, CSS, and JavaScript: The .html, .css, and .js files share these languages as dependencies for creating the website's frontend.
 
-4. Models: The models.py file is shared among the views.py, admin.py, and tests.py files as it defines the data schema for the database.
+4. Django Template Language: The .html files use Django's template language for rendering dynamic data.
 
-5. Views: The views.py file is shared with the urls.py file as it contains the logic for handling requests and rendering responses.
+5. Django Settings: The settings.py file contains settings that are shared across the entire Django project, such as database configurations, installed apps, middleware classes, and template settings.
 
-6. Admin: The admin.py file is shared with the models.py file as it is used to customize the Django admin interface.
+6. Django URL Dispatcher: The urls.py file contains URL patterns that are used by Django's URL dispatcher to route HTTP requests to the appropriate view functions.
 
-7. Apps: The apps.py file is shared with the settings.py file as it is used to configure the Django app.
+7. Django Models: The models.py file contains Django models which define the data schema for the database.
 
-8. Forms: The forms.py file is shared with the views.py file as it is used to handle form data.
+8. Django Forms: The forms.py file contains Django forms which are used for handling form submissions.
 
-9. Templates: The home.html, about.html, contact.html, and portfolio.html files are shared with the views.py file as they define the HTML structure of the website.
+9. Django Middleware: The middleware.py file contains Django middleware classes which process HTTP requests and responses.
 
-10. Static Files: The style.css and script.js files are shared with the HTML templates as they define the styling and interactivity of the website.
+10. Django Context Processors: The context_processors.py file contains Django context processors which add variables to the context of every template.
 
-11. Migrations: The 0001_initial.py and __init__.py files in the migrations folder are shared with the models.py file as they are used to create and manage the database schema.
+11. Django Template Tags: The portfolio_website_tags.py file contains custom Django template tags which can be used in the templates.
 
-12. Database: The db.sqlite3 file is shared with the models.py and views.py files as it is the database file where all the data is stored.
+12. Django Management Commands: The management/commands/ directory can contain custom Django management commands.
 
-13. ASGI and WSGI: The asgi.py and wsgi.py files are shared with the settings.py file as they are used to configure the server interface for the Django project.
+13. Django Migrations: The migrations/ directory contains Django migrations which are used for applying changes to the database schema.
 
-14. manage.py: The manage.py file is shared with all the other files as it is used to manage the Django project, including running the server and applying migrations.
+14. Django Admin: The admin.py file contains configurations for Django's admin interface.
+
+15. Django Apps: The apps.py file contains the configuration for the Django app.
+
+16. Django Tests: The tests.py file contains tests for the Django app.
+
+17. Django Fixtures: The sample_data.json file is a Django fixture which can be used for loading data into the database.
+
+18. Requirements: The requirements.txt file contains a list of Python packages that are required for the project.
+
+19. Git: The .gitignore file contains a list of files and directories that should be ignored by Git.
+
+20. README: The README.md file contains information about the project.

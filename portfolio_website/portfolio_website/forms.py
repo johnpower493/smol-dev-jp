@@ -7,6 +7,6 @@ class ContactForm(forms.Form):
 
 class PortfolioForm(forms.Form):
     project_name = forms.CharField(max_length=200)
-    project_description = forms.CharField(widget=forms.Textarea)
+    project_description = forms.CharField(widget=forms.Textarea, max_length=1000)
     project_url = forms.URLField()
     project_image = forms.ImageField()

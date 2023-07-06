@@ -1,0 +1,52 @@
+# python cache files
+__pycache__
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+db.sqlite3
+media
+
+# Backup files
+*.bak
+
+# If you are using PyCharm
+.idea/
+
+# If you are using VS Code
+.vscode/
+
+# If you are using Jupyter Notebook
+.ipynb_checkpoints/
+
+# If you are using virtualenv
+venv/
+ENV/
+
+# If you are using Docker
+*.env
+
+# If you are using MacOS
+.DS_Store
+
+# If you are using Windows
+Thumbs.db
+
+# Python dependencies
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# Django migrations
+*/migrations/*
+
+# Django static files
+/static/
+
+# Django media files
+/media/
