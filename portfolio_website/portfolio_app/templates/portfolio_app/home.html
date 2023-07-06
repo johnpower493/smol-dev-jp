@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineering Portfolio</title>
+    <link rel="stylesheet" href="{% static 'portfolio_app/css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Data Engineering Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a data engineer with a passion for turning raw data into actionable insights.</p>
+        </section>
+        <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>Data Cleaning</li>
+                <li>Data Analysis</li>
+                <li>Data Visualization</li>
+                <li>Machine Learning</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 My Data Engineering Portfolio</p>
+    </footer>
+    <script src="{% static 'portfolio_app/js/script.js' %}"></script>
+</body>
+</html>
