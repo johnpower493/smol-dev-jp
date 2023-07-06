@@ -1,0 +1,35 @@
+[
+    {
+        "model": "portfolio_website.project",
+        "pk": 1,
+        "fields": {
+            "title": "Data Pipeline Project",
+            "description": "Built a data pipeline using Apache Kafka and Spark Streaming",
+            "technologies": "Apache Kafka, Spark Streaming, Python",
+            "image": "img/data_pipeline_project.png",
+            "link": "https://github.com/user/data_pipeline_project"
+        }
+    },
+    {
+        "model": "portfolio_website.project",
+        "pk": 2,
+        "fields": {
+            "title": "Data Warehousing Project",
+            "description": "Designed and implemented a data warehouse using Amazon Redshift",
+            "technologies": "Amazon Redshift, SQL, Python",
+            "image": "img/data_warehousing_project.png",
+            "link": "https://github.com/user/data_warehousing_project"
+        }
+    },
+    {
+        "model": "portfolio_website.project",
+        "pk": 3,
+        "fields": {
+            "title": "Machine Learning Project",
+            "description": "Developed a machine learning model for predicting customer churn",
+            "technologies": "Python, Scikit-Learn, Pandas",
+            "image": "img/machine_learning_project.png",
+            "link": "https://github.com/user/machine_learning_project"
+        }
+    }
+]
